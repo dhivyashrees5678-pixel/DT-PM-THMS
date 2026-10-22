@@ -1,0 +1,14 @@
+{
+  "name": "transformer-hms-backend",
+  "version": "1.0.0",
+  "description": "Digital twin transformer health monitoring - backend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "serialport": "^12.0.0",
+    "ws": "^8.18.0",
+    "xlsx": "^0.18.5"
+  }
+}
